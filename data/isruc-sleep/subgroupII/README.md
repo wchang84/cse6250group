@@ -1,0 +1,1 @@
+Data gathered from 8 subjects; two recording sessions were performed per subject, which are useful for studies involving changes in the PSG signals over time;

@@ -1,0 +1,1 @@
+data collected from one recording session related to 10 healthy subjects, which are useful for studies involving comparison of healthy subjects with the patients suffering from sleep disorders.
