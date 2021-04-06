@@ -3,6 +3,11 @@
 ARG BASE_CONTAINER=jupyter/scipy-notebook
 FROM $BASE_CONTAINER
 
+COPY --chown=${NB_UID}:${NB_GID} requirements.txt /tmp/
+RUN conda install --yes --file /tmp/requirements.txt && \
+    fix-permissions $CONDA_DIR && \
+    fix-permissions /home/$NB_USER
+
 LABEL maintainer="Jupyter Project <jupyter@googlegroups.com>"
 
 # Fix DL4006
