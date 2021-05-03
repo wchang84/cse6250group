@@ -15,7 +15,7 @@ Folder Structure:
     - Raw data is included as well as the train and test sets for running locally.
 - Preprocess: Includes data downloads from various sources and aggregation of data
 - Visualization: Includes Tableau notebook used to visualize results as well as relevant output data
-- dockerfile: container set up information
+- dockerfile: container set up information. Dockerfile based on Pysark notebook from docker stacks. See https://github.com/jupyter/docker-stacks/tree/master/pyspark-notebook
 
 ## Running
 Set up docker container using environment.yml
